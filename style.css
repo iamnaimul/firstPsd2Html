@@ -1,0 +1,224 @@
+/* Last updated: April, 2018 */
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia Regular;
+	font-size: 14px;
+	line-height: 1.6em;
+	background-color: #ffffff;
+}
+
+/* Global */
+.container{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+a{
+    color: #ffffff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff3822c7;
+    /*font-weight: bold;*/
+    cursor: pointer;
+}
+.clr{
+    clear: both;
+}
+
+/* Search Bar Design */
+header .search{
+    width: 200px;
+    height: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #ffffff;
+    float: right;
+}
+
+/* up menu float */
+header #left-menu{
+    float: left;
+}
+#up_menu{
+    min-height: 50px;
+}
+#top{
+    background-color: #ba2e1f;
+}
+
+/* Menu Design */
+#first{
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+/* branding Design */
+#branding h1, #branding p{
+    font-size: 48px;
+    font-family: Georgia Regular;
+    margin: 0;
+    padding: 0;
+    margin-top: 38px;
+    margin-bottom: 15px;
+}
+#branding p{
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Main Menu Bar Design With Hover Effect */
+
+#second{
+    background: #000;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+#second a{
+    padding: 0 15px;
+    color: #ffffff;
+    font-family: Georgia Regular;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#second a:hover{
+    color: #ba2e1f;
+    /*font-weight: bold;*/
+    cursor: pointer;
+}
+
+
+/* Body Design */
+#banner1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main_img{
+    width: 400px;
+    height: 440px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+#head_line{
+    margin-top: 25px;
+    width: 55%;
+}
+#head_line h1{
+    font-family: Georgia Regular;
+    font-size: 86px;
+    line-height: 1em;
+}
+#head_line p{
+    font-size: 16px;
+    font-family: Georgia Regular;
+}
+.more{
+    color: black;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: Georgia Regular;
+    float: right;
+    color: #ba2e1f;
+}
+
+/* Main Content Dsign */
+section{
+    background: #f2f2f2;
+    min-height: 430px;
+}
+
+section{
+    border-top: 5px solid #ffffff;;
+}
+
+#main_body{
+    display: flex;
+    justify-content: space-around;
+}
+#main_body p{
+    text-align: justify;
+}
+.one{
+    width: 33.33%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#pic{
+    height: 140px;
+    width: 290px;
+    background: #333333;
+    border: 5px solid #ffffff;
+}
+
+#col1 .pic2{
+    height: 64px;
+    width: 64px;
+    background: #333333;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#col1 h3{
+    margin-bottom: 0;
+}
+#col1 p{
+    margin-top: 0;
+}
+
+/* Footer Design */
+
+footer{
+    background-color: #f2f2f2;
+    height: 65px;
+    text-align: center;
+    border-top: 5px solid #ffffff;
+}
+footer p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/*Media Queries*/
+@media(max-width:768px){
+    
+    #second a{
+        display: block;
+        margin: 5px 0;
+        border: 1px solid #fff;
+        padding: 3px 2px;
+    }
+    #main_img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #head_line{
+        width: 100%;
+        text-align: center;
+    }
+    div.one h2{
+        text-align: center;
+    }
+    #banner1{
+        display: block;
+    }
+    div.one{
+        width: 100%;
+    }
+    div#main_body{
+        display: block;
+    }
+    
+}
+
+/* Edited by Md. Naimul Hassan */
